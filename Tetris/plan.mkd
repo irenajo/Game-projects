@@ -1,0 +1,31 @@
+## opis
+
+- objekat pada s neba, postoji 4 vrste oblika, brzina padanja, pomeranje objekta levo-desno sve dok ne dotakne dno.
+- objekat moze da se rotira, ako ima dovoljno prostora za to
+- ako objekti popune ceo sprat matrice, taj sprat se brise i korisnik dobija poene
+- igra traje sve dok neki objekat ne premasi*/dotakne vrh ekrana nakon postavljanja 
+
+
+- objekat current : pomeranje, padanje
+- ostali objekti : na neki nacin smesteni u matrici, i tako vodimo racuna o tome da li neki red brisemo
+- objekti mogu biti razlicite boje i oblika...
+
+
+## IDEJA:
+
+1. igra == matrica : 0-prazno, 1/2/3/4/5 - koja je boja na mestu, to stampamo.
+
+
+
+## TODO
+
+0. familijarizacija sa kodom: sta koja funkcija radi, i sta ti ne treba?
+0.1: neka game klasa sadrzi matricu za stampanje, i current object
+1. objekat oblika 4 kockica koje su jedna na drugoj => KAKO DA PREDSTAVIM U MEMORIJI???
+    - niz od 4 tacaka/koordinata ???
+
+- pravljenje matrice po kojoj prolazimo da bismo proverili poene/koliziju za kraj igre
+- u svaku celiju matrice pamtiti: boju kocke.
+- STAMPATI MATRICU
+
+
